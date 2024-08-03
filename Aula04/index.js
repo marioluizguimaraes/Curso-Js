@@ -54,3 +54,10 @@ console.log(`2^3 = ${valor07}`);
 
 valor07 **= 2;
 console.log(valor07);
+
+//CONVERSÃO DE TIPO DE DADOS
+const num1 = 10;
+const num2 = '20.5'
+console.log(num1 + parseInt(num2) + typeof(num2)) // parseInt() -> para número inteiro
+console.log(num1 + parseFloat(num2) + typeof(num2)) // parseFloat() -> para número flutuante
+console.log(num1 + Number(num2) + typeof(num2)) // Number() -> para o tipo numerico automatico
